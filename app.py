@@ -8,7 +8,7 @@ from datetime import datetime
 import smtplib
 from email.mime.text import MIMEText
 import re
-
+from prompts import RECEIPT_ANALYSIS_PROMPT, get_receipt_chat_prompt
 # ==================================================
 # EMAIL VALIDATION
 # ==================================================
